@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import { Button, ButtonsBox } from './FeedbackOptions.styled';
 
@@ -9,7 +10,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
           <Button
             key={option}
             type="button"
-            onClick={onLeaveFeedback}
+            onClick={() => onLeaveFeedback(option)}
             value={option}
           >
             {option}

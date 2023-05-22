@@ -1,8 +1,9 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import {
   FeedbackName,
   ListContainer,
-  ListItem ,
+  ListItem,
   Quantity,
 } from './Statistics.styled';
 
